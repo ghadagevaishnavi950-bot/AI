@@ -1,35 +1,24 @@
-Overview
+Project Title: Generative AI RAG_PDF
+🔍 Overview
+This project demonstrates a Retrieval-Augmented Generation (RAG) system designed to work directly with PDF documents.
+It enables an AI model to read, retrieve, and reason over real PDF data — giving accurate, context-based answers instead of generic responses.
 
-This project demonstrates a Retrieval-Augmented Generation (RAG) system for Generative AI using PDF documents as the knowledge source. The goal is to extract relevant information from PDFs and use a Large Language Model (LLM) to answer domain-specific questions accurately and contextually.
-
-🔍 Objective
-
+🎯 Objective
 To build a pipeline that:
-
-Loads and processes PDF documents related to Artificial Intelligence or research papers.
-
-Splits the text into chunks for better retrieval.
-
-Embeds the chunks into a vector database (Chroma, FAISS, etc.).
-
-Retrieves relevant chunks based on user queries.
-
-Passes the context to an LLM (like Llama 3, Groq, or OpenAI models) for generating answers.
+Loads and processes PDF documents (like research papers, government reports, or policies).
+Splits text into chunks for efficient retrieval.
+Creates embeddings and stores them in a vector database (like Chroma or FAISS).
+Uss LLMs (e.g., Groq or Llama 3) to generate intelligent answers based on document context.
 
 🧩 Key Features
+📄 Automatic PDF text extraction
+🧠 Context-aware Q&A using LLMs
+🗂️ Vector-based document retrieval
+⚙️ Modular scripts: ingestion, embedding, and querying
+🔗 Easily extendable for research, budget analysis, or policy review
 
-PDF-based text ingestion and vector storage.
-
-Context-aware question answering using LLM.
-
-Modular and extendable codebase.
-
-Can integrate with any LLM backend (Groq, OpenAI, Anthropic, etc.).
-
-🚀 Future Enhancements
-
-Add source citation tracking to show document references in responses.
-
-Integrate Streamlit UI for interactive query testing.
-
-Implement real-time document updates with re-embedding.
+💻 Tech Stack
+Languages: Python
+Libraries: LangChain, ChromaDB, Groq LLM, dotenv
+Model: Llama 3 / Groq model
+Data Format: PDF documents
