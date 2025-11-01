@@ -43,6 +43,7 @@ Generative-AI-RAG_PDF/
 
 🔗 Easily extendable for research, budget analysis, or policy review
 
+
 💻 Tech Stack:
 
 Languages: Python
