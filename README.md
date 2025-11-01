@@ -8,10 +8,15 @@ It enables an AI model to read, retrieve, and reason over real PDF data — givi
 🎯 Objective:
 
 To build a pipeline that:
+
 Loads and processes PDF documents (like research papers, government reports, or policies).
+
 Splits text into chunks for efficient retrieval.
+
 Creates embeddings and stores them in a vector database (like Chroma or FAISS).
+
 Uss LLMs (e.g., Groq or Llama 3) to generate intelligent answers based on document context.
+
 
 🧩 Key Features:
 
