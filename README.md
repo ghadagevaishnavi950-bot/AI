@@ -27,7 +27,12 @@ Generative-AI-RAG_PDF/
 
 ├── 📄  RAG_pdf.ipynb 
 
-├── 📄  README.md   
+├── 📄  README.md  
+
+├── 📄  requirements.txt
+
+
+
 
 
 
