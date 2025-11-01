@@ -18,14 +18,17 @@ Creates embeddings and stores them in a vector database (like Chroma or FAISS).
 Uss LLMs (e.g., Groq or Llama 3) to generate intelligent answers based on document context.
 
 
+
 📁 Project Structure — Generative AI RAG_PDF
+
 
 Generative-AI-RAG_PDF/
 
-│
+
 ├── 📄  RAG_pdf.ipynb 
 
 ├── 📄  README.md   
+
 
 
 🧩 Key Features:
