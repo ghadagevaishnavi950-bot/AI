@@ -16,14 +16,21 @@ Uss LLMs (e.g., Groq or Llama 3) to generate intelligent answers based on docume
 🧩 Key Features:
 
 📄 Automatic PDF text extraction
+
 🧠 Context-aware Q&A using LLMs
+
 🗂️ Vector-based document retrieval
+
 ⚙️ Modular scripts: ingestion, embedding, and querying
+
 🔗 Easily extendable for research, budget analysis, or policy review
 
 💻 Tech Stack:
 
 Languages: Python
+
 Libraries: LangChain, ChromaDB, Groq LLM, dotenv
+
 Model: Llama 3 / Groq model
+
 Data Format: PDF documents
